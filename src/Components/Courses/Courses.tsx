@@ -18,7 +18,7 @@ const Courses = () => {
     const [courses, setCourses] = useState<dataType[]>([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/allcourses')
+        fetch('https://safe-atoll-27425.herokuapp.com/allcourses')
             .then(res => res.json())
             .then(data => setCourses(data));
     }, []);

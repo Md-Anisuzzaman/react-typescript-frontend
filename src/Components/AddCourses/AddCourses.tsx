@@ -31,7 +31,7 @@ const AddCourse = () => {
             details: data.details,
             img: data.img,
         };
-        axios.post('http://localhost:5000/addcourses', userData)
+        axios.post('https://safe-atoll-27425.herokuapp.com/addcourses', userData)
             .then(res => {
                 console.log(res);
             })
