@@ -1,0 +1,42 @@
+.add__course__body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.add-Course {
+    width: 50%;
+}
+.add-Course form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:50px ;
+}
+
+.add-Course form input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none; 
+    padding: 5px; 
+}
+
+@media (min-width:320px) and (max-width:990px) {
+
+    .add-Course{
+        width: 100%;
+    }
+  
+}

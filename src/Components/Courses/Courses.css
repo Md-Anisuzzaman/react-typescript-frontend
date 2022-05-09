@@ -1,0 +1,49 @@
+.courses-body {
+    background-color: #0E2653;
+}
+
+.text-light {
+    text-align: center;
+    /* margin-top: 2rem; */
+}
+
+.cart {
+    background-color: #0E2653;
+    margin: 15px;
+    color: white;
+}
+
+.cart:hover {
+    border: 1px solid rgba(255, 255, 255);
+    box-shadow: 0 0 15px 0 rgba(246, 249, 251, 0.954);
+}
+
+.tittle-border{
+    position: relative;
+}
+.tittle-border::after {
+    content: '';
+    border-bottom: 5px solid #517dff;
+    position: absolute;
+    width: 6vw;
+    top: 2rem;
+    bottom: 0%;
+    left: 0%;
+}
+
+.p-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:600px) {
+    .text-light{
+
+        margin-top: 3rem;
+
+    }
+    .tittle-border::after{
+        width: 20vw;
+    }
+    
+}

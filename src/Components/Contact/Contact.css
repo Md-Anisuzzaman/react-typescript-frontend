@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0E2653;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact .content p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container .contactInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contact-body {
+    display: flex;
+    width: 100%;
+}
+
+.contact-body .contactInfo {
+    width: 50%;
+}
+
+.contact-body .contactForm {
+    width: 50%;
+}
+
+.contact-body .contactInfo .box .icon i {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    margin-right: 10px;
+    background-color: thistle;
+}
+
+.contact-body .contactInfo .box .text h3 {
+    color: gold;
+}
+
+.contact-body .contactInfo .box .text p {
+    color: white;
+}
+
+.contactForm {
+    background-color: #0e2643;
+}
+
+.contactForm form {
+    padding: 20px;
+    margin-top: 28px;
+    box-shadow: 20px;
+}
+
+.contactForm form h2 {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 15px;
+
+}
+.inputBox{
+    padding-bottom: 10px;
+}
+
+.contactForm .inputBox .name-field {
+    width: 100%;
+    height: 40px;
+    background-color: #517dff;
+    color:#fff;
+}
+
+.contactForm .inputBox .email-field {
+    width: 100%;
+    height: 40px;
+    background-color: #517dff;
+    color: #fff;
+}
+
+.contactForm form span {
+    color: rgb(245, 197, 5);
+}
+
+.contactForm form .inputBox textarea {
+    width: 100%;
+    height: 180px;
+    background-color: #517dff;
+    color: #fff;
+}
+
+.contactForm form .inputBox .btn-submit {
+    width: 100%;
+    font-size: 20px;
+    background-color: #517dff;
+    color: rgb(245, 197, 5);;
+}
+
+
+@media (max-width:991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .contact-body {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media (min-width:320px) and (max-width:990px) {
+    .contact-body .contactForm {
+        width: 100%;
+    }
+
+    .contactForm {
+        width: 100%;
+    }
+}

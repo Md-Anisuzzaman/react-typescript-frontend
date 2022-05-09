@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: block;
+    background-color: #0E2653;
+    z-index: 0;
+}
+
+.parent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    z-index: 1;
+    display: block;
+    background-color: aqua;
+}
+
+.child {
+    width: 60%;
+    height: 80%;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    bottom: 10vh;
+    left: 20vw;
+    right: 20vw;
+    z-index: 2;
+    box-shadow: 0px 0px 10px #420e53;
+}
+
+.left {
+    width: 18.8%;
+    background-color: #00ffff;
+}
+
+ .form-s form {
+  display: grid;
+  place-content: center;
+}
+    
+ 
